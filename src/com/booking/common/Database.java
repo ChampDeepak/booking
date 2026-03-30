@@ -1,7 +1,7 @@
 package com.booking.common;
 
 import com.booking.common.entity.*;
-import com.booking.common.enums.SeatStatus;
+// import com.booking.common.enums.SeatStatus;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
 

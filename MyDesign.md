@@ -95,14 +95,15 @@ Assumptions for simplicity:
 
 
 7. Things where I am confused?
+    Part1: 
     a. I easily feagured out the services but to implement schema design but in lld classes we never talked about schema design and it feels counter intuitive when we not talk about schema design while making core application logic. So is it standard practice to avoid schema design. (current designs does not talk about how db changes happen)
     b. Even 3 layer architecture was not mentioned.
 
-
-8. Things to explore later:
+    Part2: 
     a. How to handle concurrency in booking ticket
     b. How to handle overlapping and concurrency in admin operations + implement other apis as well
     c. How user validation works whether given user has access or not, in current design I have kept it in validate method in proxies for simplicity
+    
     
 
 

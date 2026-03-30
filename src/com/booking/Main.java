@@ -6,7 +6,7 @@ import com.booking.browse.*;
 import com.booking.cancellation.*;
 import com.booking.common.Database;
 import com.booking.common.entity.*;
-import com.booking.common.enums.SeatStatus;
+// import com.booking.common.enums.SeatStatus;
 import com.booking.common.exception.*;
 import com.booking.fetchshow.*;
 import com.booking.payment.*;
