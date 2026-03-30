@@ -214,14 +214,14 @@ public class Main {
         System.out.println();
     }
 
-    // ==================== SECTION 6: ADMIN PROXY DEMO ====================
+    // ==================== SECTION 6: ADMIN PROXY DEMO (RBAC) ====================
     private static void demoAdminProxy() {
-        System.out.println("--- SECTION 6: ADMIN PROXY DEMO ---\n");
+        System.out.println("--- SECTION 6: ADMIN PROXY DEMO (RBAC) ---\n");
 
         AdminService realAdmin = new AdminService(db);
         ProxyAdminService proxyAdmin = new ProxyAdminService(realAdmin, db);
 
-        // customer tries admin operation
+        // customer tries admin operations — should be denied
         System.out.println("[6a] CUSTOMER tries to addShow — should be denied:");
         try {
             proxyAdmin.addShowAsUser("deepak@example.com", "S99", "M1", "T1", "A1",
@@ -230,10 +230,32 @@ public class Main {
             System.out.println("     CAUGHT: " + e.getMessage());
         }
 
+        System.out.println("\n[6b] CUSTOMER tries to addMovie — should be denied:");
+        try {
+            proxyAdmin.addMovieAsUser("deepak@example.com", "M99", "T1", "Oppenheimer", "English", "Drama");
+        } catch (ValidationException e) {
+            System.out.println("     CAUGHT: " + e.getMessage());
+        }
+
+        System.out.println("\n[6c] CUSTOMER tries to addTheater — should be denied:");
+        try {
+            proxyAdmin.addTheaterAsUser("deepak@example.com", "T99", "IMAX Wadala", "Mumbai",
+                Arrays.asList("Screen 1", "Screen 2"));
+        } catch (ValidationException e) {
+            System.out.println("     CAUGHT: " + e.getMessage());
+        }
+
         // admin succeeds
-        System.out.println("\n[6b] ADMIN adds show — should succeed:");
-        proxyAdmin.addShowAsUser("admin@example.com", "S99", "M1", "T1", "A1",
-            "2026-04-02T10:00:00", "2026-04-02T13:00:00", 200);
+        System.out.println("\n[6d] ADMIN adds theater:");
+        proxyAdmin.addTheaterAsUser("admin@example.com", "T99", "IMAX Wadala", "Mumbai",
+            Arrays.asList("Screen 1", "Screen 2"));
+
+        System.out.println("\n[6e] ADMIN adds movie:");
+        proxyAdmin.addMovieAsUser("admin@example.com", "M99", "T99", "Oppenheimer", "English", "Drama");
+
+        System.out.println("\n[6f] ADMIN adds show:");
+        proxyAdmin.addShowAsUser("admin@example.com", "S99", "M99", "T99", "T99-A1",
+            "2026-04-02T10:00:00", "2026-04-02T13:00:00", 300);
 
         System.out.println();
     }

@@ -137,6 +137,7 @@ public class Database {
     // --- Admin operations ---
     public void addShow(Show show) { shows.add(show); }
     public void addMovie(Movie movie) { movies.add(movie); }
+    public void addTheater(Theater theater) { theaters.add(theater); }
 
     public List<Show> getAllShows() { return shows; }
     public List<Movie> getAllMovies() { return movies; }

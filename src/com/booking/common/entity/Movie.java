@@ -9,6 +9,14 @@ public class Movie {
 
     public Movie() {}
 
+    public Movie(String movieId, String theaterId, String movieName, String language, String genre) {
+        this.movieId = movieId;
+        this.theaterId = theaterId;
+        this.movieName = movieName;
+        this.language = language;
+        this.genre = genre;
+    }
+
     public String getMovieId() { return movieId; }
     public String getTheaterId() { return theaterId; }
     public String getMovieName() { return movieName; }

@@ -10,6 +10,13 @@ public class Theater {
 
     public Theater() {}
 
+    public Theater(String theaterId, String theaterName, String city, List<Auditorium> auditoriums) {
+        this.theaterId = theaterId;
+        this.theaterName = theaterName;
+        this.city = city;
+        this.auditoriums = auditoriums;
+    }
+
     public String getTheaterId() { return theaterId; }
     public String getTheaterName() { return theaterName; }
     public String getCity() { return city; }
