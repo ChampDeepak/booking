@@ -1,0 +1,350 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="ElUie9nodzG3uif6V9kG">
+    <mxGraphModel dx="5940" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UaN35zXed01KAw4o1lhm-156" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IFetchCityMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(String City): List of Movies&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="224" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-157" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-158" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.008;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.382;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-156" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="110" />
+            </Array>
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="220" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-158" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProxyFetchCityMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ service:&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;IFetchCityMovieService&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(String City): List of Movies&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="34" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-159" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-160" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.003;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-156" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="110" />
+            </Array>
+            <mxPoint x="520" y="170" as="sourcePoint" />
+            <mxPoint x="480" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-160" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FetchCityMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(String City): List of Movies&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="400" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-161" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-158" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.595;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="UaN35zXed01KAw4o1lhm-156" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="320" y="230" as="sourcePoint" />
+            <mxPoint x="480" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-162" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IFetchTheaterService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(String City): List of TheaterObj&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="240" x="224" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-163" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProxyFetchTheaterService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ service:&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;IFetchTheaterService&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(String City): List of TheaterObj&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="34" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-164" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-162" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="94" y="718" />
+            </Array>
+            <mxPoint x="94" y="779" as="sourcePoint" />
+            <mxPoint x="200" y="717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-165" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;ProxyFetchTheaterService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(String City): List of TheaterObj&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="240" x="405" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-166" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-165" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.546;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-162" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="715" />
+            </Array>
+            <mxPoint x="534" y="774" as="sourcePoint" />
+            <mxPoint x="664" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-167" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-163" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1.016;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-162" value="1">
+          <mxGeometry relative="1" x="-1" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="344" y="848" />
+            </Array>
+            <mxPoint x="344" y="890" as="sourcePoint" />
+            <mxPoint x="351" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-168" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IFetchTheaterMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(TheaterId): List of Movies&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="224" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-169" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-170" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.008;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.382;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-168" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="420" />
+            </Array>
+            <mxPoint x="120" y="470" as="sourcePoint" />
+            <mxPoint x="220" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-170" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProxyFetchTheaterMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ service:&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;IFetchTheaterMovieService&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(TheaterId): List of Movies&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="34" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-171" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-172" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.003;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-168" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="420" />
+            </Array>
+            <mxPoint x="520" y="480" as="sourcePoint" />
+            <mxPoint x="480" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-172" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FetchTheaterMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(TheaterId): List of Movies&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="400" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-173" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-170" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.595;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="UaN35zXed01KAw4o1lhm-168" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="320" y="540" as="sourcePoint" />
+            <mxPoint x="480" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-174" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IFetchShowService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(TheaterId): List of showobj&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="238" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-175" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-176" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.008;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.382;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-174" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="134" y="1040" />
+            </Array>
+            <mxPoint x="134" y="1090" as="sourcePoint" />
+            <mxPoint x="234" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-176" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProxyFetchShowService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ service:&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;IFetchShowService&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(movieId): List of showobj&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="48" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-177" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-178" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.003;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-174" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="1040" />
+            </Array>
+            <mxPoint x="534" y="1100" as="sourcePoint" />
+            <mxPoint x="494" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-178" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FetchShowService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;movieId&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): List of showobj&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="414" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-179" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-176" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.595;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="UaN35zXed01KAw4o1lhm-174" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="334" y="1160" as="sourcePoint" />
+            <mxPoint x="494" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-180" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PricingStrategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getSeatPrice(showObj, seatObj, extras): double&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="238" x="510" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-181" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-182" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.586;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.472;exitY=-0.007;exitDx=0;exitDy=0;curved=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-180" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="649" y="1400" />
+            </Array>
+            <mxPoint x="649.4260000000004" y="1459.9899999999998" as="sourcePoint" />
+            <mxPoint x="470" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-182" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;FixedPriceStrategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getSeatPrice(showObj, seatObj, extras): double&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="238" x="536" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-183" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FetchBillService&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pricingStrategy: PricingStrategy&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPricingStrategy(PricingStrategy)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(List of seatobj and show obj ): BillDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="304" x="30" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-184" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-183" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1.003;exitY=0.57;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-180" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="334" y="1350" as="sourcePoint" />
+            <mxPoint x="390" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-185" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;FetchBillController&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- f&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;etchBillService: F&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;etchBillService&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ billrequestValidator(BillRequestDTO)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetch(List of seatobj and show obj ): BillDto&lt;br&gt;(here controller is used to validate req, deligate billcalculation, configures pricing strategy. validation can be extracted out but kept here in v0 for simplicity)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="304" x="30" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-186" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-185" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-183" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="182" y="1480" as="sourcePoint" />
+            <mxPoint x="512.5" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-187" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Server" vertex="1">
+          <mxGeometry height="150" width="240" x="-1140" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-188" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-187" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-158" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-500" y="800" as="sourcePoint" />
+            <mxPoint x="-370" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-189" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-187" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-170" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-390" y="880" as="sourcePoint" />
+            <mxPoint x="-240" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-190" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-187" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-176" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-560" y="1400" as="sourcePoint" />
+            <mxPoint x="-136" y="1055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-191" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-187" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-185" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-610" y="1470" as="sourcePoint" />
+            <mxPoint x="-70" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-192" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Database" vertex="1">
+          <mxGeometry height="150" width="240" x="1250" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-193" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-160" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-192" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1400" y="740" as="sourcePoint" />
+            <mxPoint x="1450" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-194" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-172" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-192" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1400" y="740" as="sourcePoint" />
+            <mxPoint x="1450" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-195" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-165" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-192" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1400" y="740" as="sourcePoint" />
+            <mxPoint x="1450" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-196" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-178" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-192" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="670" y="1169" as="sourcePoint" />
+            <mxPoint x="1085" y="1139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-197" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-187" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-163" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-380" y="895" as="sourcePoint" />
+            <mxPoint x="20" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-198" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ProxyPaymentService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- payment&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Service: Payment&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Service&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validate(PaymentRequestDTO)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ makePayment(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PaymentRequestDTO&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;): TicketDto&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;(here proxy is used to validate req, configure which payment adapter to use and deligate payment)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="320" x="34" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-199" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;PaymentService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- paymentAdapter: IPaymentAdapter&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPaymentAdapter(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IPaymentAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ makePayment(PaymentRequestDTO&amp;nbsp;): TicketDto&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="320" x="34" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-200" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-198" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-199" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="193.41" y="1940" as="sourcePoint" />
+            <mxPoint x="193.41" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-201" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;IPaymentAdapter&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ completerPayment(CompletePaymentDTO): boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="320" x="507" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-202" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-199" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-201" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="420" y="1930" as="sourcePoint" />
+            <mxPoint x="420" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-203" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-204" style="endArrow=classic;html=1;rounded=0;entryX=0.475;entryY=1.025;entryDx=0;entryDy=0;exitX=0.526;exitY=-0.012;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="UaN35zXed01KAw4o1lhm-201" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="667" y="1920" as="sourcePoint" />
+            <mxPoint x="680" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-204" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;UpiAdapter&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ completerPayment(CompletePaymentDTO): boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="320" x="495" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-205" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-187" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-198" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-480" y="1265" as="sourcePoint" />
+            <mxPoint x="-60" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-206" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-199" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-192" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-510" y="1100" as="sourcePoint" />
+            <mxPoint x="-86" y="2235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-207" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ProxyTicketCancellationService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- t&lt;span style=&quot;text-align: center;&quot;&gt;icketCancellationService&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TicketCancellationService&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validate(CancelTicketRequestDTO)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cancelTicket(&lt;/span&gt;CancelTicketRequestDTO&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;): CancelledTicketDto&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="355" x="-12.5" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-208" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TicketCancellationService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- refundPaymentAdapter: IRefund&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PaymentAdapter&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setRefundPaymentAdapter(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IPaymentAdapter&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ cancelTicket(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CancelTicketRequestDTO&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;): CancelledTicketDto&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="370" x="-20" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-209" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-207" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-208" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="189.41" y="2390" as="sourcePoint" />
+            <mxPoint x="189.41" y="2310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-210" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;IRefundPaymentAdapter&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ refundPayment(RefundPaymentDTO): boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="320" x="503" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-211" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-208" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-210" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="416" y="2380" as="sourcePoint" />
+            <mxPoint x="416" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-212" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-213" style="endArrow=classic;html=1;rounded=0;entryX=0.475;entryY=1.025;entryDx=0;entryDy=0;exitX=0.526;exitY=-0.012;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="UaN35zXed01KAw4o1lhm-210" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="663" y="2370" as="sourcePoint" />
+            <mxPoint x="676" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-213" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;RazorpayAdapter&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ refundPayment(RefundPaymentDTO): boolean&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="320" x="491" y="2380" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-214" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-187" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-207" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-890" y="1350" as="sourcePoint" />
+            <mxPoint x="44" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-215" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-208" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-192" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1870" />
+            </Array>
+            <mxPoint x="660" y="2750" as="sourcePoint" />
+            <mxPoint x="-2" y="2470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-216" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IReserveSeatService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ holdSeat(userId, seatIds, showid): double&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="238" x="774" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-217" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;IReserveSeatService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ holdSeat(userId, seatIds, showid): double&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="238" x="811" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-218" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-217" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.378;exitY=0.037;exitDx=0;exitDy=0;curved=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-216" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="658" y="1479" as="sourcePoint" />
+            <mxPoint x="659" y="1382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-219" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-183" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-216" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1310" />
+              <mxPoint x="360" y="1250" />
+              <mxPoint x="893" y="1250" />
+            </Array>
+            <mxPoint x="360" y="1270" as="sourcePoint" />
+            <mxPoint x="711" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

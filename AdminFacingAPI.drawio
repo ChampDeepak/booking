@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="ElUie9nodzG3uif6V9kG">
+    <mxGraphModel dx="3156" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UaN35zXed01KAw4o1lhm-33" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAddShowService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddShowDto): AddShowResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="238" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-34" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-35" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.008;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.382;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-33" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="134" y="1040" />
+            </Array>
+            <mxPoint x="134" y="1090" as="sourcePoint" />
+            <mxPoint x="234" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-35" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProxyAddShowService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ service:&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;IAddShowService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validateReq(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AddShowDto&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddShowDto): AddShowResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="226" x="48" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-36" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-37" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.003;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-33" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="1040" />
+            </Array>
+            <mxPoint x="534" y="1100" as="sourcePoint" />
+            <mxPoint x="494" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-37" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AddShowService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddShowDto): AddShowResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="414" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-38" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-35" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.595;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="UaN35zXed01KAw4o1lhm-33" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="334" y="1160" as="sourcePoint" />
+            <mxPoint x="494" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Server" vertex="1">
+          <mxGeometry height="150" width="240" x="-600" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-54" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-50" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-560" y="1400" as="sourcePoint" />
+            <mxPoint x="-136" y="1055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Database" vertex="1">
+          <mxGeometry height="150" width="240" x="1070" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-60" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-37" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="670" y="1169" as="sourcePoint" />
+            <mxPoint x="1085" y="1139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-80" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAddMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddMovieDto): AddMovieResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="220" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-81" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-82" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.008;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.382;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-80" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="116" y="1350" />
+            </Array>
+            <mxPoint x="116" y="1400" as="sourcePoint" />
+            <mxPoint x="216" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-82" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProxyAddMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ service:&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;IAddMovieService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validateReq(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AddMovieDto&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddMovieDto): AddMovieResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="226" x="30" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-83" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-84" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.003;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-80" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="516" y="1350" />
+            </Array>
+            <mxPoint x="516" y="1410" as="sourcePoint" />
+            <mxPoint x="476" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-84" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AddMovieService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddMovieDto): AddMovieResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="396" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-85" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-82" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.595;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="UaN35zXed01KAw4o1lhm-80" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="316" y="1470" as="sourcePoint" />
+            <mxPoint x="476" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-86" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAddTheaterService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddTheaterDto): AddTheaterResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="220" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-87" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-88" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.008;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.382;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-86" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="116" y="1720" />
+            </Array>
+            <mxPoint x="116" y="1770" as="sourcePoint" />
+            <mxPoint x="216" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-88" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProxyAddTheaterService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ service:&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;IAddTheaterService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validateReq(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AddTheaterDto&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddTheaterDto): AddTheaterResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="226" x="30" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-89" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-90" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1.003;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.531;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="UaN35zXed01KAw4o1lhm-86" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="516" y="1720" />
+            </Array>
+            <mxPoint x="516" y="1780" as="sourcePoint" />
+            <mxPoint x="476" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-90" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Add&lt;/b&gt;&lt;b&gt;Theater&lt;/b&gt;&lt;b&gt;Service&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(AddTheaterDto): AddTheaterResponseDto&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="226" x="396" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-91" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-88" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.595;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="UaN35zXed01KAw4o1lhm-86" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="316" y="1840" as="sourcePoint" />
+            <mxPoint x="476" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-92" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-50" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-82" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-520" y="2050" as="sourcePoint" />
+            <mxPoint x="-112" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-93" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-50" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UaN35zXed01KAw4o1lhm-88" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-350" y="1475" as="sourcePoint" />
+            <mxPoint x="40" y="1495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-94" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-90" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="1640" as="sourcePoint" />
+            <mxPoint x="1160" y="1935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UaN35zXed01KAw4o1lhm-95" edge="1" parent="1" source="UaN35zXed01KAw4o1lhm-84" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UaN35zXed01KAw4o1lhm-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="632" y="1850" as="sourcePoint" />
+            <mxPoint x="1030" y="1465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
