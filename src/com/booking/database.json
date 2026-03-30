@@ -1,0 +1,72 @@
+{
+  "theaters": [
+    {
+      "theaterId": "T1",
+      "theaterName": "PVR Phoenix",
+      "city": "Mumbai",
+      "auditoriums": [
+        { "auditoriumId": "A1", "auditoriumName": "Screen 1" },
+        { "auditoriumId": "A2", "auditoriumName": "Screen 2" }
+      ]
+    },
+    {
+      "theaterId": "T2",
+      "theaterName": "INOX Megaplex",
+      "city": "Mumbai",
+      "auditoriums": [
+        { "auditoriumId": "A3", "auditoriumName": "Audi 1" }
+      ]
+    },
+    {
+      "theaterId": "T3",
+      "theaterName": "PVR Orion",
+      "city": "Bangalore",
+      "auditoriums": [
+        { "auditoriumId": "A4", "auditoriumName": "Screen 1" }
+      ]
+    }
+  ],
+  "movies": [
+    { "movieId": "M1", "theaterId": "T1", "movieName": "Interstellar", "language": "English", "genre": "Sci-Fi" },
+    { "movieId": "M2", "theaterId": "T1", "movieName": "Dune Part 2", "language": "English", "genre": "Sci-Fi" },
+    { "movieId": "M3", "theaterId": "T2", "movieName": "Interstellar", "language": "Hindi", "genre": "Sci-Fi" },
+    { "movieId": "M4", "theaterId": "T3", "movieName": "RRR", "language": "Telugu", "genre": "Action" }
+  ],
+  "shows": [
+    {
+      "showId": "S1", "movieId": "M1", "theaterId": "T1", "auditoriumId": "A1",
+      "startTime": "2026-04-01T10:00:00", "endTime": "2026-04-01T13:00:00", "showBasePrice": 200
+    },
+    {
+      "showId": "S2", "movieId": "M1", "theaterId": "T1", "auditoriumId": "A1",
+      "startTime": "2026-04-01T14:00:00", "endTime": "2026-04-01T17:00:00", "showBasePrice": 250
+    },
+    {
+      "showId": "S3", "movieId": "M2", "theaterId": "T1", "auditoriumId": "A2",
+      "startTime": "2026-04-01T11:00:00", "endTime": "2026-04-01T14:00:00", "showBasePrice": 300
+    },
+    {
+      "showId": "S4", "movieId": "M4", "theaterId": "T3", "auditoriumId": "A4",
+      "startTime": "2026-04-01T18:00:00", "endTime": "2026-04-01T21:00:00", "showBasePrice": 150
+    }
+  ],
+  "seats": [
+    { "seatId": "SEAT-S1-1", "seatType": "GOLD",    "showId": "S1", "basePrice": 150, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S1-2", "seatType": "GOLD",    "showId": "S1", "basePrice": 150, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S1-3", "seatType": "DIAMOND", "showId": "S1", "basePrice": 250, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S1-4", "seatType": "DIAMOND", "showId": "S1", "basePrice": 250, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S1-5", "seatType": "SILVER",  "showId": "S1", "basePrice": 100, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S1-6", "seatType": "SILVER",  "showId": "S1", "basePrice": 100, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S2-1", "seatType": "GOLD",    "showId": "S2", "basePrice": 150, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S2-2", "seatType": "DIAMOND", "showId": "S2", "basePrice": 250, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S4-1", "seatType": "GOLD",    "showId": "S4", "basePrice": 120, "status": "AVAILABLE" },
+    { "seatId": "SEAT-S4-2", "seatType": "SILVER",  "showId": "S4", "basePrice": 80,  "status": "AVAILABLE" }
+  ],
+  "tickets": [],
+  "users": [
+    { "name": "Deepak", "email": "deepak@example.com", "role": "CUSTOMER" },
+    { "name": "User2", "email": "user2@example.com", "role": "CUSTOMER" },
+    { "name": "User3", "email": "user3@example.com", "role": "CUSTOMER" },
+    { "name": "Admin", "email": "admin@example.com", "role": "ADMIN" }
+  ]
+}

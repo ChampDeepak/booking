@@ -99,9 +99,10 @@ Assumptions for simplicity:
     b. Even 3 layer architecture was not mentioned.
 
 
-8. Things to focus:
+8. Things to explore later:
     a. How to handle concurrency in booking ticket
     b. How to handle overlapping and concurrency in admin operations + implement other apis as well
+    c. How user validation works whether given user has access or not, in current design I have kept it in validate method in proxies for simplicity
     
 
 

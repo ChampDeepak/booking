@@ -1,0 +1,18 @@
+# Compiled output
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories (Maven/Gradle/IntelliJ/plain javac)
+target/
+out/
+bin/
+build/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.iws
+
